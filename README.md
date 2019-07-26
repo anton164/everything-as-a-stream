@@ -13,6 +13,6 @@ In this readme we also reflect on some problems you might encounter when you fir
 - Action$
 - Routines
 - State$
-- Views as functions of strems
+- Views as pure functions of strems
 
 ## 
