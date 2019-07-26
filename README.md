@@ -16,4 +16,8 @@ In this readme we also reflect on some problems you might encounter when you fir
 - State$
 - Views as pure functions of strems
 
-## 
+## Roadblocks
+- Dead streams?
+- Hot vs. cold
+- Debugging
+- Streams all over the place?
