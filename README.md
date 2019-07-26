@@ -1,8 +1,9 @@
 # Everything as a stream
 This repository presents a set of ideas about how you can utilize RxJS to handle most things in your app:
- - state management
- - side effects
- - modelling complex data flows
+ - decoupling modules
+ - managing state
+ - handling side effects
+ - reasoning about complex data flows
  
 It was developed while we embraced functional reactive programming and RxJS to build a new architecture for a large single-page application at Ardoq.
 
