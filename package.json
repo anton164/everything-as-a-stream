@@ -1,0 +1,23 @@
+{
+  "name": "everything-as-a-stream",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anton164/everything-as-a-stream.git"
+  },
+  "author": "Anton Abilov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anton164/everything-as-a-stream/issues"
+  },
+  "homepage": "https://github.com/anton164/everything-as-a-stream#readme",
+  "dependencies": {
+    "rxjs": "^6.5.2",
+    "rxjs-spy": "^7.5.1"
+  }
+}
