@@ -1,5 +1,5 @@
 # Everything as a stream
-[From the redux docs](https://redux.js.org/introduction/prior-art#rxjs):
+[From the Redux docs](https://redux.js.org/introduction/prior-art#rxjs):
 > The question is: do you really need Redux if you already use Rx? Maybe not. It's not hard to re-implement Redux in Rx. Some say it's a two-liner using Rx .scan() method. It may very well be!
 
 We've taken on Redux' challenge and modelled everything as a stream. This repository presents a set of ideas about how you can utilize RxJS and streams to handle most things in your app:
