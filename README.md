@@ -8,7 +8,7 @@ We've taken on Redux' challenge and modelled everything as a stream. This reposi
  - handling side effects (async data flows)
  - interop with legacy code (decoupling modules and proxying state)
  
-This is not a framework to solve all your problems, but rather an example of how you can use the power of RxJS to suit your needs and manage state.
+This is not a framework to solve all your problems, but rather an example of how you can use the power of RxJS and streams to suit your needs.
 
 The ideas were presented at JSConf US so it's the best to explore the ideas in this repo [along with the talk](#). They were developed while we embraced functional reactive programming and RxJS to build a new architecture for a large single-page application at Ardoq.
 
