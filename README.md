@@ -15,13 +15,13 @@ The ideas were presented at JSConf US so it's the best to explore the ideas in t
 We've also outlined some problems you might encounter when you first start using RxJS and suggestions on how you can overcome them.
 
 ## The 4 building blocks
-- Action$
+- The Action Stream
 - Routines
-- State$
-- Views as pure functions of strems
+- State Streams
+- Views as Pure Functions of Streams
 
 ## Roadblocks 
 - Dead streams?
-- Hot vs. cold
+- Hot vs. cold streams (multicast vs unicast)
 - Debugging
 - Streams all over the place?
