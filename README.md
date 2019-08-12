@@ -1,17 +1,17 @@
 # Everything as a stream
-[From the Redux docs](https://redux.js.org/introduction/prior-art#rxjs):
-> The question is: do you really need Redux if you already use Rx? Maybe not. It's not hard to re-implement Redux in Rx. Some say it's a two-liner using Rx .scan() method. It may very well be!
+This repository presents a set of code snippets that aim to show how you can utilize RxJS and streams to build an architecture that suits your needs.
 
-We've taken on the challenge and modelled everything as a stream. This repository presents a set of examples of how you can utilize RxJS and streams to build an architecture that suits your needs.
+The ideas were presented at JSConf US so it's the best to explore the code in this repo [along with the talk](#). It was developed while we embraced functional reactive programming and RxJS to build a new architecture for a large single-page application at Ardoq. 
 
-The ideas were presented at JSConf US so it's the best to explore the code in this repo [along with the talk](#). It was developed while we embraced functional reactive programming and RxJS to build a new architecture for a large single-page application at Ardoq.
+This is mainly meant to supplement the talk. We're currently in the process of packaging some of these methods and patterns as a library with proper tests and documentation.
 
-## The 4 building blocks
-- action$
-- Routines
-- state$
-- Views as Pure Functions of Streams
+## Code snippets
+- [action$](https://github.com/anton164/everything-as-a-stream/blob/master/streams/action%24.ts)
+- [Routines]()
+- [state$]()
+- [connect]() _Connect a React view to a stream_
+- [createBackboneModelStream] _Create a proxy state observable from a Backbone model_
 
-## Utility methods
-- Creating proxy state from Backbone models
-- Connecting a view to a stream 
+## Custom operators
+- [ofType]() Filter actions emitted from the action$ by a certain type
+- [catchErrorLogAndContinue]() Catch an error, log it then keep the stream alive. Useful to make your state streams and routines more robust.
