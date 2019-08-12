@@ -6,15 +6,15 @@ The ideas were presented at JSConf US so it's the best to explore the code in th
 This is mainly meant to supplement the talk. We're currently in the process of packaging some of these methods and patterns as a library with proper tests and documentation.
 
 ## Code snippets
-- [action$](https://github.com/anton164/everything-as-a-stream/blob/master/streams/action%24.ts) - _the action stream_
-- [Routines]() - _Routines example_
-- [state$]() - _state$ example_
+- [action$](https://github.com/anton164/everything-as-a-stream/blob/master/snippets/action%24.ts) - _the action stream_
+- [Routines](https://github.com/anton164/everything-as-a-stream/blob/master/snippets/routines.ts) - _Routines example_
+- [state$](https://github.com/anton164/everything-as-a-stream/blob/master/snippets/state%24.ts) - _state$ example_
 
 ## Utility methods
-- [createStateStream]() - _API for centralizing state stream creation_
-- [connect]() - _connect a React view to a stream_
-- [createBackboneModelStream]() - _create a proxy state observable from a Backbone model_
+- [createStateStream](https://github.com/anton164/everything-as-a-stream/blob/master/snippets/stateStreamUtils.ts#L44) - _API for centralizing state stream creation_
+- [connect](https://github.com/anton164/everything-as-a-stream/blob/master/snippets/reactUtils.ts#L14) - _connect a React view to a stream_
+- [createBackboneModelStream](https://github.com/anton164/everything-as-a-stream/blob/master/snippets/stateStreamUtils.ts#L15) - _create a proxy state observable from a Backbone model_
 
 ## Custom operators
-- [ofType]() - _filter actions emitted from the action$ by a certain type_
-- [catchErrorLogAndContinue]() - _keeps your stream alive on error, useful to make your streams more robust_
+- [ofType](https://github.com/anton164/everything-as-a-stream/blob/master/snippets/operators.ts#L5) - _filter actions emitted from the action$ by a certain type_
+- [catchErrorLogAndContinue](https://github.com/anton164/everything-as-a-stream/blob/master/snippets/operators.ts#L17) - _keeps your stream alive on error, useful to make your streams more robust_
