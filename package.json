@@ -16,7 +16,12 @@
     "url": "https://github.com/anton164/everything-as-a-stream/issues"
   },
   "homepage": "https://github.com/anton164/everything-as-a-stream#readme",
+  "devDependencies": {
+    "@types/backbone": "1.3.43",
+    "@types/react": "16.8.19"
+  },
   "dependencies": {
+    "react": "^16.8.6",
     "rxjs": "^6.5.2",
     "rxjs-spy": "^7.5.1"
   }

@@ -1,7 +1,7 @@
 import { Subject } from 'rxjs';
 import { share } from 'rxjs/operators';
 import { tag } from 'rxjs-spy/operators';
-import { ActionShape } from '../types';
+import { ActionShape } from './types';
 
 const createActionStream = () => new Subject<ActionShape>();
 const actionSubject$ = createActionStream();
