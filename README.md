@@ -7,8 +7,9 @@ This is mainly meant to supplement the talk. We're currently in the process of p
 
 ## Code snippets
 - [action$](https://github.com/anton164/everything-as-a-stream/blob/master/snippets/action%24.ts) - _the action stream_
-- [Routines](https://github.com/anton164/everything-as-a-stream/blob/master/snippets/routines.ts) - _Routines example_
-- [state$](https://github.com/anton164/everything-as-a-stream/blob/master/snippets/state%24.ts) - _state$ example_
+- [Routines](https://github.com/anton164/everything-as-a-stream/blob/master/snippets/examples/routines.ts) - _Routines example_
+- [state$](https://github.com/anton164/everything-as-a-stream/blob/master/snippets/examples/state%24.ts) - _state$ example_
+- [Views as a function of streams](https://github.com/anton164/everything-as-a-stream/blob/master/snippets/examples/ConnectedView.tsx) - _Shows how you can connect a React view to a stream_
 
 ## Utility methods
 - [createStateStream](https://github.com/anton164/everything-as-a-stream/blob/master/snippets/stateStreamUtils.ts#L44) - _API for centralizing state stream creation_

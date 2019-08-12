@@ -1,6 +1,6 @@
-import { Action$ } from './types';
-import { dispatchAction } from './action$';
-import { ofType } from './operators';
+import { Action$ } from '../types';
+import { dispatchAction } from '../action$';
+import { ofType } from '../operators';
 import { switchMap, tap } from 'rxjs/operators';
 import { ajax } from 'rxjs/ajax';
 
@@ -22,7 +22,7 @@ const startRoutines = (action$: Action$) => [
     ofType<LaunchRocketPayload>('LAUNCH_ROCKET_REQUEST'),
     switchMap(({ destination }) => fetchCoordinates(destination)),
     tap(({ response }) => dispatchAction({
-      type: 'LAUNCH_ROCKET_PROCEED',
+      type: 'LAUNCH_ROCKET_INIT',
       coordinates: response.coordinates
     }))
   ).subscribe()
