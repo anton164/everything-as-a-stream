@@ -1,7 +1,7 @@
 # Everything as a stream
 This repository presents a set of code snippets that aim to show how you can utilize RxJS and streams to build an architecture that suits your needs.
 
-The ideas were presented at JSConf US so it's the best to explore the code in this repo [along with the talk](#). It was developed while we embraced functional reactive programming and RxJS to build a new architecture for a large single-page application at Ardoq. 
+The ideas were presented at JSConf US so it's the best to explore the code in this repo [along with the talk](https://www.youtube.com/watch?v=vd5S_7Qm9WE). It was developed while we embraced functional reactive programming and RxJS to build a new architecture for a large single-page application at Ardoq. 
 
 This is mainly meant to supplement the talk. We're currently in the process of packaging some of these methods and patterns as a library with proper tests and documentation.
 
